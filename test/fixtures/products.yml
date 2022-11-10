@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ps4:
+  title: ps4 1
+  description: MyText1
+  price: 150
+
+two:
+  title: NT64
+  description: un nintendo viejo
+  price: 25

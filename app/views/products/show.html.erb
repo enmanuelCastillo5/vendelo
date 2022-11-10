@@ -1,0 +1,10 @@
+
+<h1 class='title'><%=@product.title%></h1>
+<%= image_tag @product.photo, width: 200 if @product.photo.attached? %>
+
+<p class='description'><%=@product.description%></p>
+<span class='price'> <%=@product.price%>$ </span>
+
+<br>
+<%=link_to 'editar poducto', edit_product_path(@product) %>
+<%=link_to 'eliminar poducto', product_path(@product), data: {turbo_method: :delete ,turbo_confirm: 'estas seguro?'} %>
