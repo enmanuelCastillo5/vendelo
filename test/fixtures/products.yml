@@ -4,8 +4,17 @@ ps4:
   title: ps4 1
   description: MyText1
   price: 150
+  category: videogames
 
-two:
+switch:
   title: NT64
   description: un nintendo viejo
   price: 25
+  category: videogames
+
+
+messi:
+  title: Messi
+  description: the GOAT of football
+  price: 25
+  category: anime

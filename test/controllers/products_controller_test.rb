@@ -4,7 +4,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     test 'render a list of products' do
         get products_path
         assert_response :success
-        assert_select '.product', 2
+        assert_select '.product', 3
     end
 
     test 'render a detail product page' do
@@ -28,7 +28,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
             product: {
                 title: 'Nintendo',
             description: 'faltan 3',
-            price: 20
+            price: 20,
+            category_id: categories(:videogames).id
             }
         }
         assert_redirected_to products_path
