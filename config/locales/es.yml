@@ -24,6 +24,7 @@ es:
   shared:
     header:
       add: 'Añadir producto'
+      categories: 'Categorias'
   products:
     edit:
       title: 'Editar producto'
@@ -31,6 +32,9 @@ es:
       title: 'Añadir producto'
     index:
       title: 'Productos:'
+      all: 'Todos'
+      min_price: 'Precio Minimo'
+      max_price: 'Precio maximo'
     show:
       edit: 'Editar producto'
       delete: 'Borrar producto'

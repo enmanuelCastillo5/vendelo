@@ -9,12 +9,12 @@ ps4:
 switch:
   title: NT64
   description: un nintendo viejo
-  price: 25
+  price: 180
   category: videogames
 
 
 messi:
   title: Messi
   description: the GOAT of football
-  price: 25
+  price: 220
   category: anime
