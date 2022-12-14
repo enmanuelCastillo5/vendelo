@@ -12,9 +12,10 @@ switch:
   price: 180
   category: videogames
 
-
-messi:
-  title: Messi
+  
+messi2:
+  title: Messi2
   description: the GOAT of football
-  price: 220
+  price: 22022
   category: anime
+  
