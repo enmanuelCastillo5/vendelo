@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
-    before_action :set_locale
-    
+  include Pagy::Backend  
+  
+  before_action :set_locale
     
     def extract_locale
         parsed_locale = request.host.split('.').last
