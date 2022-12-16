@@ -22,7 +22,6 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
         assert_select 'h3', 'NT64'
     end
 
-
     test 'search a product by query_text' do
         get products_path(query_text: 'Messi2')
     
@@ -77,7 +76,6 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
     end
 
-
     test 'does not allow to create a new product' do 
         post products_path, params: {
             product: {
@@ -87,7 +85,6 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
         }
         assert_response :unprocessable_entity
     end
-
 
     test 'render an edit product form' do
         get edit_product_path(products(:ps4))
@@ -114,7 +111,6 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
         }
         assert_response :unprocessable_entity
     end
-
 
     test 'can delete a product' do 
         assert_difference('Product.count', -1) do
