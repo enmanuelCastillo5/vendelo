@@ -23,6 +23,8 @@ en:
               blank: "can't be blank"
   common:
     confirm: 'Are you sure?'
+    back: 'Go back'
+    not_logged_in: 'You have to login or create an account'
   shared:
     header:
       add: 'Add product'
@@ -30,6 +32,10 @@ en:
     users:
       create:
         created: 'Your account has been created!'
+    sessions:
+      create:
+        created: 'Welcome!'
+        failed: 'Invalid login!'
   products:
     edit:
       title: 'Edit product'
