@@ -12,9 +12,9 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     end
 
     test 'render a list of products filtered by category' do
-        get products_path(category_id: categories(:anime).id)
+        get products_path(category_id: categories(:sports).id)
         assert_response :success
-        assert_select '.product', 1
+        assert_select '.product', 4
     end
 
     test 'render a list of products filtered by min_price and max_price' do
