@@ -5,7 +5,7 @@ ps4:
   description: MyText1
   price: 10
   category: videogames
-  user: pepe
+  user: paco
 
 switch:
   title: NT64
